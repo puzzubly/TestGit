@@ -1,27 +1,16 @@
 # TestGit
-Setting up my laptop with Git software:
+Setting up my laptop with Git software: Secure Shell Protocol (SSH)
 
-🌈 Open Ubuntu
+🌈 Open GitHub
 
-🌈 " git config --global color.ui true " ENTER
+🌈 Navigate to the Settings under Avatar 
 
-🌈 " git config --global user.name + SPACE + " name " ENTER
+🌈 Click on SSH and GPG in the left side menu
 
-🌈 " git config --global user.email + SPACE " email address from GitHub " ENTER
+🌈 Click on "generating SSH keys" for the documentation and read through
 
-🌈  " ssh-keygen " ENTER
+🌈 If you were getting an error like me, watch video here:
 
-🌈 hit ENTER at any prompts
+https://www.youtube.com/watch?v=Irj-2tmV0JM
 
-🌈 " cat ~/.ssh/id_rsa.pub | clip.exe " ENTER to copy SSH key to clipboard
-
-🌈 Open GitHub at New SSH Key 
-
-🌈 *paste* into the key input field
-
-🌈 ADD SSH key
-
-🌈 Open Ubuntu again
-
-🌈 *paste* " curl -so- https://raw.githubusercontent.com/FS-Academy-Xi/flatiron-manual-setup-validator/master/wsl-phase-0-manual-setup-validator.sh | bash 2> /dev/null "
-
+^^^^^ "SSH Permission Denied (PublicKey) Error on GitHub Solved" on YouTube by Cameron McKenzie 👌
